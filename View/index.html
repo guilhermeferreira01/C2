@@ -5,7 +5,6 @@
         <title>
             AGENDAMENTO - CLINICA
         </title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
 
     </head>
@@ -13,13 +12,13 @@
     <body>
         <h1>Agendamento de Consultas - Clínica de Angiologia</h1>
 
-        <p>Adicione os dados do paciente abaixo, o nome é obrigatório.</p>
+        <p>Adicione os dados do paciente abaixo.</p>
         <table>
             <tr>
                 <td>
                     <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
                         <div>
-                            <label>Nome:</label><label class="validation-error hide" id="val">Precisamos do seu nome para identifica-lo!</label>
+                            <label>Nome:</label><label class="validation-error hide" id="val">Precisamos do seu nome, sem ele não da para saber quem é você!</label>
                             <input type="text" name="nome" id="nome">
                         </div>
                         <div>
@@ -68,7 +67,7 @@
         </table>
 
         <footer>
-            Desenvolvido por <strong> Guilherme Lopes Ferreira </strong>
+            Qualquer dúvida procure por <strong> Guilherme Lopes Ferreira </strong>
         </footer>
 
         <script src="../Model/pacienteModel.js"></script>
